@@ -1,0 +1,23 @@
+{
+  "name": "cmp-test-demo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "umi dev",
+    "test": "umi test"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "umi": "^2.13.3",
+    "umi-plugin-react": "^1.15.2",
+    "umi-request": "^1.2.19"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.4.1",
+    "umi-test": "^1.9.3",
+    "mockjs": "^1.1.0"
+  }
+}

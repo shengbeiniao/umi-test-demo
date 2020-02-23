@@ -1,0 +1,967 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render all 1`] = `
+<body>
+  <div>
+    <div>
+      <div
+        style="margin-bottom: 10px;"
+      >
+        <button
+          class="ant-btn ant-btn-common"
+          type="button"
+        >
+          <span>
+            Admin 123
+          </span>
+        </button>
+        <button
+          class="ant-btn ant-btn-common"
+          disabled=""
+          style="margin-left: 10px;"
+          type="button"
+        >
+          <span>
+            User
+          </span>
+        </button>
+      </div>
+      <div
+        class="ant-table-wrapper"
+      >
+        <div
+          class="ant-spin-nested-loading"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <div
+              class="ant-table ant-table-small ant-table-scroll-position-left"
+              data-testid="list"
+            >
+              <div
+                class="ant-table-content"
+              >
+                <div
+                  class="ant-table-body"
+                >
+                  <table
+                    class=""
+                  >
+                    <colgroup>
+                      <col />
+                      <col />
+                      <col
+                        style="width: 200px; min-width: 200px;"
+                      />
+                    </colgroup>
+                    <thead
+                      class="ant-table-thead"
+                    >
+                      <tr>
+                        <th
+                          class=""
+                        >
+                          <span
+                            class="ant-table-header-column"
+                          >
+                            <div>
+                              <span
+                                class="ant-table-column-title"
+                              >
+                                名称
+                              </span>
+                              <span
+                                class="ant-table-column-sorter"
+                              />
+                            </div>
+                          </span>
+                        </th>
+                        <th
+                          class=""
+                        >
+                          <span
+                            class="ant-table-header-column"
+                          >
+                            <div>
+                              <span
+                                class="ant-table-column-title"
+                              >
+                                状态
+                              </span>
+                              <span
+                                class="ant-table-column-sorter"
+                              />
+                            </div>
+                          </span>
+                        </th>
+                        <th
+                          class="ant-table-row-cell-break-word ant-table-row-cell-last"
+                        >
+                          <span
+                            class="ant-table-header-column"
+                          >
+                            <div>
+                              <span
+                                class="ant-table-column-title"
+                              >
+                                操作
+                              </span>
+                              <span
+                                class="ant-table-column-sorter"
+                              />
+                            </div>
+                          </span>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="ant-table-tbody"
+                    >
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="46ddd00c42434ffcb40936456678c21f"
+                      >
+                        <td
+                          class=""
+                        >
+                          VM-VPC-3
+                        </td>
+                        <td
+                          class=""
+                        >
+                          Running
+                        </td>
+                        <td
+                          class="ant-table-row-cell-break-word"
+                        >
+                          <button
+                            class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                            data-testid="dropdown"
+                            type="button"
+                          >
+                            <span>
+                              操作
+                            </span>
+                            <i
+                              aria-label="icon: down"
+                              class="anticon anticon-down"
+                              data-testid="icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                data-icon="down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                />
+                              </svg>
+                            </i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="65b648cf057241e89d587249f483e42a"
+                      >
+                        <td
+                          class=""
+                        >
+                          VM-3
+                        </td>
+                        <td
+                          class=""
+                        >
+                          Stopped
+                        </td>
+                        <td
+                          class="ant-table-row-cell-break-word"
+                        >
+                          <button
+                            class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                            data-testid="dropdown"
+                            type="button"
+                          >
+                            <span>
+                              操作
+                            </span>
+                            <i
+                              aria-label="icon: down"
+                              class="anticon anticon-down"
+                              data-testid="icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                data-icon="down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                />
+                              </svg>
+                            </i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="fd989aa9d9d24be2a12a8b1fe4b4cb89"
+                      >
+                        <td
+                          class=""
+                        >
+                          VM-VPC2
+                        </td>
+                        <td
+                          class=""
+                        >
+                          Stopped
+                        </td>
+                        <td
+                          class="ant-table-row-cell-break-word"
+                        >
+                          <button
+                            class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                            data-testid="dropdown"
+                            type="button"
+                          >
+                            <span>
+                              操作
+                            </span>
+                            <i
+                              aria-label="icon: down"
+                              class="anticon anticon-down"
+                              data-testid="icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                data-icon="down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                />
+                              </svg>
+                            </i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="d5fc43e12876451883fd879a2a074b60"
+                      >
+                        <td
+                          class=""
+                        >
+                          VM-云路由
+                        </td>
+                        <td
+                          class=""
+                        >
+                          Stopped
+                        </td>
+                        <td
+                          class="ant-table-row-cell-break-word"
+                        >
+                          <button
+                            class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                            data-testid="dropdown"
+                            type="button"
+                          >
+                            <span>
+                              操作
+                            </span>
+                            <i
+                              aria-label="icon: down"
+                              class="anticon anticon-down"
+                              data-testid="icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                data-icon="down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                />
+                              </svg>
+                            </i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="3a3c710bdd384f658ba9aa722cad9de9"
+                      >
+                        <td
+                          class=""
+                        >
+                          VM-VPC-1
+                        </td>
+                        <td
+                          class=""
+                        >
+                          Stopped
+                        </td>
+                        <td
+                          class="ant-table-row-cell-break-word"
+                        >
+                          <button
+                            class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                            data-testid="dropdown"
+                            type="button"
+                          >
+                            <span>
+                              操作
+                            </span>
+                            <i
+                              aria-label="icon: down"
+                              class="anticon anticon-down"
+                              data-testid="icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                data-icon="down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                />
+                              </svg>
+                            </i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="81050f9bd8ce45dd97321ddee28d1fe2"
+                      >
+                        <td
+                          class=""
+                        >
+                          VM-公网
+                        </td>
+                        <td
+                          class=""
+                        >
+                          Stopped
+                        </td>
+                        <td
+                          class="ant-table-row-cell-break-word"
+                        >
+                          <button
+                            class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                            data-testid="dropdown"
+                            type="button"
+                          >
+                            <span>
+                              操作
+                            </span>
+                            <i
+                              aria-label="icon: down"
+                              class="anticon anticon-down"
+                              data-testid="icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                data-icon="down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                />
+                              </svg>
+                            </i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="c0220ee607bf4afabc2a66532b0b0387"
+                      >
+                        <td
+                          class=""
+                        >
+                          VM-扁平
+                        </td>
+                        <td
+                          class=""
+                        >
+                          Stopped
+                        </td>
+                        <td
+                          class="ant-table-row-cell-break-word"
+                        >
+                          <button
+                            class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                            data-testid="dropdown"
+                            type="button"
+                          >
+                            <span>
+                              操作
+                            </span>
+                            <i
+                              aria-label="icon: down"
+                              class="anticon anticon-down"
+                              data-testid="icon"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                data-icon="down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                />
+                              </svg>
+                            </i>
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <ul
+              class="ant-pagination ant-table-pagination mini"
+              unselectable="unselectable"
+            >
+              <li
+                aria-disabled="true"
+                class="ant-pagination-disabled ant-pagination-prev"
+                title="Previous Page"
+              >
+                <a
+                  class="ant-pagination-item-link"
+                >
+                  <i
+                    aria-label="icon: left"
+                    class="anticon anticon-left"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="left"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                      />
+                    </svg>
+                  </i>
+                </a>
+              </li>
+              <li
+                class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+                tabindex="0"
+                title="1"
+              >
+                <a>
+                  1
+                </a>
+              </li>
+              <li
+                aria-disabled="true"
+                class="ant-pagination-disabled ant-pagination-next"
+                title="Next Page"
+              >
+                <a
+                  class="ant-pagination-item-link"
+                >
+                  <i
+                    aria-label="icon: right"
+                    class="anticon anticon-right"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class=""
+                      data-icon="right"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+                      />
+                    </svg>
+                  </i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`render list 1`] = `
+<div
+  class="ant-table ant-table-small ant-table-scroll-position-left"
+  data-testid="list"
+>
+  <div
+    class="ant-table-content"
+  >
+    <div
+      class="ant-table-body"
+    >
+      <table
+        class=""
+      >
+        <colgroup>
+          <col />
+          <col />
+          <col
+            style="width: 200px; min-width: 200px;"
+          />
+        </colgroup>
+        <thead
+          class="ant-table-thead"
+        >
+          <tr>
+            <th
+              class=""
+            >
+              <span
+                class="ant-table-header-column"
+              >
+                <div>
+                  <span
+                    class="ant-table-column-title"
+                  >
+                    名称
+                  </span>
+                  <span
+                    class="ant-table-column-sorter"
+                  />
+                </div>
+              </span>
+            </th>
+            <th
+              class=""
+            >
+              <span
+                class="ant-table-header-column"
+              >
+                <div>
+                  <span
+                    class="ant-table-column-title"
+                  >
+                    状态
+                  </span>
+                  <span
+                    class="ant-table-column-sorter"
+                  />
+                </div>
+              </span>
+            </th>
+            <th
+              class="ant-table-row-cell-break-word ant-table-row-cell-last"
+            >
+              <span
+                class="ant-table-header-column"
+              >
+                <div>
+                  <span
+                    class="ant-table-column-title"
+                  >
+                    操作
+                  </span>
+                  <span
+                    class="ant-table-column-sorter"
+                  />
+                </div>
+              </span>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="ant-table-tbody"
+        >
+          <tr
+            class="ant-table-row ant-table-row-level-0"
+            data-row-key="46ddd00c42434ffcb40936456678c21f"
+          >
+            <td
+              class=""
+            >
+              VM-VPC-3
+            </td>
+            <td
+              class=""
+            >
+              Running
+            </td>
+            <td
+              class="ant-table-row-cell-break-word"
+            >
+              <button
+                class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                data-testid="dropdown"
+                type="button"
+              >
+                <span>
+                  操作
+                </span>
+                <i
+                  aria-label="icon: down"
+                  class="anticon anticon-down"
+                  data-testid="icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class=""
+                    data-icon="down"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                    />
+                  </svg>
+                </i>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="ant-table-row ant-table-row-level-0"
+            data-row-key="65b648cf057241e89d587249f483e42a"
+          >
+            <td
+              class=""
+            >
+              VM-3
+            </td>
+            <td
+              class=""
+            >
+              Stopped
+            </td>
+            <td
+              class="ant-table-row-cell-break-word"
+            >
+              <button
+                class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                data-testid="dropdown"
+                type="button"
+              >
+                <span>
+                  操作
+                </span>
+                <i
+                  aria-label="icon: down"
+                  class="anticon anticon-down"
+                  data-testid="icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class=""
+                    data-icon="down"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                    />
+                  </svg>
+                </i>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="ant-table-row ant-table-row-level-0"
+            data-row-key="fd989aa9d9d24be2a12a8b1fe4b4cb89"
+          >
+            <td
+              class=""
+            >
+              VM-VPC2
+            </td>
+            <td
+              class=""
+            >
+              Stopped
+            </td>
+            <td
+              class="ant-table-row-cell-break-word"
+            >
+              <button
+                class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                data-testid="dropdown"
+                type="button"
+              >
+                <span>
+                  操作
+                </span>
+                <i
+                  aria-label="icon: down"
+                  class="anticon anticon-down"
+                  data-testid="icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class=""
+                    data-icon="down"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                    />
+                  </svg>
+                </i>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="ant-table-row ant-table-row-level-0"
+            data-row-key="d5fc43e12876451883fd879a2a074b60"
+          >
+            <td
+              class=""
+            >
+              VM-云路由
+            </td>
+            <td
+              class=""
+            >
+              Stopped
+            </td>
+            <td
+              class="ant-table-row-cell-break-word"
+            >
+              <button
+                class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                data-testid="dropdown"
+                type="button"
+              >
+                <span>
+                  操作
+                </span>
+                <i
+                  aria-label="icon: down"
+                  class="anticon anticon-down"
+                  data-testid="icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class=""
+                    data-icon="down"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                    />
+                  </svg>
+                </i>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="ant-table-row ant-table-row-level-0"
+            data-row-key="3a3c710bdd384f658ba9aa722cad9de9"
+          >
+            <td
+              class=""
+            >
+              VM-VPC-1
+            </td>
+            <td
+              class=""
+            >
+              Stopped
+            </td>
+            <td
+              class="ant-table-row-cell-break-word"
+            >
+              <button
+                class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                data-testid="dropdown"
+                type="button"
+              >
+                <span>
+                  操作
+                </span>
+                <i
+                  aria-label="icon: down"
+                  class="anticon anticon-down"
+                  data-testid="icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class=""
+                    data-icon="down"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                    />
+                  </svg>
+                </i>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="ant-table-row ant-table-row-level-0"
+            data-row-key="81050f9bd8ce45dd97321ddee28d1fe2"
+          >
+            <td
+              class=""
+            >
+              VM-公网
+            </td>
+            <td
+              class=""
+            >
+              Stopped
+            </td>
+            <td
+              class="ant-table-row-cell-break-word"
+            >
+              <button
+                class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                data-testid="dropdown"
+                type="button"
+              >
+                <span>
+                  操作
+                </span>
+                <i
+                  aria-label="icon: down"
+                  class="anticon anticon-down"
+                  data-testid="icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class=""
+                    data-icon="down"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                    />
+                  </svg>
+                </i>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="ant-table-row ant-table-row-level-0"
+            data-row-key="c0220ee607bf4afabc2a66532b0b0387"
+          >
+            <td
+              class=""
+            >
+              VM-扁平
+            </td>
+            <td
+              class=""
+            >
+              Stopped
+            </td>
+            <td
+              class="ant-table-row-cell-break-word"
+            >
+              <button
+                class="ant-btn ant-dropdown-trigger ant-btn-sm"
+                data-testid="dropdown"
+                type="button"
+              >
+                <span>
+                  操作
+                </span>
+                <i
+                  aria-label="icon: down"
+                  class="anticon anticon-down"
+                  data-testid="icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class=""
+                    data-icon="down"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                    />
+                  </svg>
+                </i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

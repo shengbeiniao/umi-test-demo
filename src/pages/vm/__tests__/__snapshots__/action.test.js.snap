@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render menu/已停止 1`] = `
+<ul
+  class="ant-dropdown-menu ant-dropdown-menu-light ant-dropdown-menu-root ant-dropdown-menu-vertical"
+  data-testid="menu"
+  role="menu"
+  tabindex="0"
+>
+  <li
+    aria-disabled="false"
+    class="ant-dropdown-menu-item"
+    data-testid="start"
+    role="menuitem"
+  >
+    启动
+  </li>
+  <li
+    aria-disabled="true"
+    class="ant-dropdown-menu-item ant-dropdown-menu-item-disabled"
+    data-testid="stop"
+    role="menuitem"
+  >
+    停止
+  </li>
+  <li
+    aria-disabled="true"
+    class="ant-dropdown-menu-item ant-dropdown-menu-item-disabled"
+    data-testid="pause"
+    role="menuitem"
+  >
+    暂停
+  </li>
+  <li
+    aria-disabled="true"
+    class="ant-dropdown-menu-item ant-dropdown-menu-item-disabled"
+    data-testid="resume"
+    role="menuitem"
+  >
+    恢复
+  </li>
+</ul>
+`;
+
+exports[`render menu/已暂停 1`] = `
+<ul
+  class="ant-dropdown-menu ant-dropdown-menu-light ant-dropdown-menu-root ant-dropdown-menu-vertical"
+  data-testid="menu"
+  role="menu"
+  tabindex="0"
+>
+  <li
+    aria-disabled="true"
+    class="ant-dropdown-menu-item ant-dropdown-menu-item-disabled"
+    data-testid="start"
+    role="menuitem"
+  >
+    启动
+  </li>
+  <li
+    aria-disabled="false"
+    class="ant-dropdown-menu-item"
+    data-testid="stop"
+    role="menuitem"
+  >
+    停止
+  </li>
+  <li
+    aria-disabled="true"
+    class="ant-dropdown-menu-item ant-dropdown-menu-item-disabled"
+    data-testid="pause"
+    role="menuitem"
+  >
+    暂停
+  </li>
+  <li
+    aria-disabled="false"
+    class="ant-dropdown-menu-item"
+    data-testid="resume"
+    role="menuitem"
+  >
+    恢复
+  </li>
+</ul>
+`;
+
+exports[`render menu/运行中 1`] = `
+<ul
+  class="ant-dropdown-menu ant-dropdown-menu-light ant-dropdown-menu-root ant-dropdown-menu-vertical"
+  data-testid="menu"
+  role="menu"
+  tabindex="0"
+>
+  <li
+    aria-disabled="true"
+    class="ant-dropdown-menu-item ant-dropdown-menu-item-disabled"
+    data-testid="start"
+    role="menuitem"
+  >
+    启动
+  </li>
+  <li
+    aria-disabled="false"
+    class="ant-dropdown-menu-item"
+    data-testid="stop"
+    role="menuitem"
+  >
+    停止
+  </li>
+  <li
+    aria-disabled="false"
+    class="ant-dropdown-menu-item"
+    data-testid="pause"
+    role="menuitem"
+  >
+    暂停
+  </li>
+  <li
+    aria-disabled="true"
+    class="ant-dropdown-menu-item ant-dropdown-menu-item-disabled"
+    data-testid="resume"
+    role="menuitem"
+  >
+    恢复
+  </li>
+</ul>
+`;

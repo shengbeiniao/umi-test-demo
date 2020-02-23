@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`role/admin 1`] = `
+<button
+  className="ant-btn ant-btn-common"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  <span>
+    Test
+  </span>
+</button>
+`;
+
+exports[`role/admin 2`] = `
+<button
+  className="ant-btn ant-btn-primary"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  <span>
+    Test
+  </span>
+</button>
+`;
+
+exports[`role/user 1`] = `
+<button
+  className="ant-btn ant-btn-common"
+  disabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <span>
+    Test
+  </span>
+</button>
+`;
